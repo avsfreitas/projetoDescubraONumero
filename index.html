@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra o Número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="containerConteudo">
+            <div class="containerInformações">
+                <div class="containerTexto">
+                    <h1></h1>
+                    <p class="textoParagrafo"></p>
+                </div>
+                <input type="number" min="1" max="10" class="containerInput">
+                <div class="chute containerBotoes"> 
+                    <button onclick="verificarChute()" class="containerBotao">Verificar</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="containerBotao" disabled>Jogar novamente</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
